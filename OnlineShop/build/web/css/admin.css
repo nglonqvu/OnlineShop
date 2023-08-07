@@ -1,0 +1,153 @@
+.view {
+    display: flex;
+    position: relative;
+}
+.choice {
+    position: fixed;
+    content: "";
+    width: 290px;
+    height: 100vh;
+    background-color: #eaeaea;
+}
+.menu {
+    width: 300px;
+}
+.choice h3 {
+    margin-left: 40px;
+    color: #c4c7c7;
+    padding: 20px 45px;
+}
+.choice li {
+    list-style: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.choice li:hover {
+    transform: translateY(1px);
+}
+.choice li a {
+    text-decoration: none;
+    color: #000;
+}
+.view-choice {
+    margin-top: 90px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.view-user table th {
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px  0 20px ; 
+}
+.view-user table td {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.view-user table {
+    box-shadow: 0 0 5px;
+    border-radius: 6px;
+    display: inline-block;
+}
+.view-user h2, 
+.view-event h2, 
+.view-customer h2, 
+.view-tickets h2, 
+.view-update h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.view-user table tr th:nth-child(5) {
+    width: 380px
+}
+.view-user table td a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 3px 12px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 8px;
+} 
+.view-user {
+    text-align: center;
+}
+.view-event, 
+.view-tickets, 
+.view-customer, 
+.view-update{
+    text-align: center;
+    margin: 40px 30px 0;
+    position: relative;
+}
+.view-event div table, 
+.view-tickets div table, 
+.view-customer div table, 
+.view-update div table, 
+.view-user div table{
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.view-event table tr th { 
+    font-size: 18px;
+    padding: 5px  0 20px; 
+}
+.view-event table td, 
+.view-customer table td, 
+.view-tickets table td  {
+    padding-bottom: 20px;
+    font-size: 16px;
+    padding-right: 5px;
+}
+.view-event table td:nth-child(8) {
+    width: 300px;
+}
+.view-event table td:nth-child(9) {
+    width: 100px;
+}
+.view-event table, 
+.view-customer table, 
+.view-tickets table {
+    box-shadow: 0 0 5px;
+    border-radius: 6px;
+    display: inline-block;
+}
+.view-customer table tr th { 
+    font-size: 18px;
+    padding: 5px  0 20px; 
+    width: 200px;
+}
+
+.view-tickets table tr th { 
+    font-size: 18px;
+    padding: 5px  0 20px; 
+    width: 200px;
+}
+.view-update select {
+    width: 300px;
+    padding: 0 42px;
+    height: 35px;
+    appearance: none;
+}
+.view-update i:nth-child(2) {
+    position: absolute;
+    content: "";
+    right: 565px;
+    top: 65px;
+}
+.view-update i:nth-child(3) {
+    position: absolute;
+    content: "";
+    left: 380px;
+    top: 69px;
+}
+.view-update div input{
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+}
